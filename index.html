@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Minhas Anotações</title>
+</head>
+    <body>
+    <!--Cabeçalhos-->
+        <!-- <h1>Anotações</h1> -->
+        <h1 id="primeiro-h1">Anotações</h1>
+    <!-- Parágrafos -->
+    <!-- Tag inline-na mesma linha (stong, em, span, img, a) -->
+        <p>Lorem ipsum <strong>dolor</strong> sit amet.</p>
+        <p>Lorem ipsum <em>dolor</em> sit amet consectetur adipisicing elit. Explicabo earum ullam dicta nobis at quos, expedita quia maiores praesentium odit!</p>
+
+    <!-- Links -->
+    <!-- Tag Block-sempre inicia em uma nova linha e ocupam toda a largura dessa linha(div, h1, h6, form)- -->
+    <!-- href dá uma referencia para a tag "a" -->
+        <a href="https://google.com" target="__blank">Google</a>
+        <a href="https://instagram.com" target="__blank">Instagram</a>
+
+    <!-- Tables -->
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+    </table>
+<!-- Formulários -->
+        <form action="form.php" method="POST">
+            <div>
+                <label>Primeiro Nome:</label>
+                <input type="text" placeholder="Digite aqui"/>    
+            </div>
+            
+            <div>
+                <label>Segundo Nome:</label>
+                <input type="text" />    
+            </div>
+
+            <div>
+                <label>Email:</label>
+                <input type="email" />
+            </div>
+
+            <div>
+                <label>Gênero:</label>
+                <select>
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                </select>
+            </div>
+
+            <div>
+                <label>Data de Nascimento:</label>
+                <input type="date"/>
+            </div>
+            
+            <div>
+                <label>Mensagem</label>
+                <textarea name="mensagem"></textarea>
+            </div>
+            <input type="submit"/>
+        </form>
+
+        <!-- Botões -->
+        <button>Click Me</button>
+        <br />
+
+        <!-- Imagens -->
+        <img src="./img/stock-photo-eyes.png" alt="Imagem">
+
+        <!-- Blockquote -->
+        <!-- blockquote é uma citação e estou dizendo de onde ela vem -->
+        <blockquote cite="https://static6.depositphotos.com">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, hic? Hic laboriosam nam expedita quam quasi dolorum. A expedita quisquam aut vitae? Quam illum laboriosam deserunt aspernatur odit a illo.
+        </blockquote>
+
+        <p>Exercício de HTML <cite>Rafael Bruno</cite></p>
+    </body>
+</html>
